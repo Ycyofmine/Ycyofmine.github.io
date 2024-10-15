@@ -1,4 +1,4 @@
-基于 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题定制化的个人博客，博客内容已转移到 `blog` 分支，`master` 将作为模板使用。[此处进入我的博客](https://nihil.cc/)。
+基于 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题定制化的个人博客，博客内容已转移到 `blog` 分支，`master` 将作为模板使用。[此处进入我的博客](https://ycyofmine.github.io/)。
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
