@@ -3,4 +3,4 @@ NichtsHsu](https://github.com/NichtsHsu/nichtshsu.github.io)
 
 [此处进入我的博客](https://ycyofmine.github.io/)。
 
-![](assets\img\README\115146481_p0.jpg)
+![](https://github.com/Ycyofmine/ycyofmine.github.io/blob/master/assets/img/README/115146481_p0.jpg)
