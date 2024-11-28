@@ -1,7 +1,7 @@
 ---
 title: GAMES104-作业2
 date: 2024-10-18 16:41:21 +0800
-categories: [笔记, GAMES104]
+categories: [GAMES104]
 tags: [games104] # TAG names should always be lowercase
 #media_subpath: 
 ---
