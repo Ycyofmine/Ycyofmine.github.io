@@ -8,7 +8,7 @@ media_subpath: /assets/img/UE
 # quicknote
 ##  Lyra技能系统组件
     
-    已被添加到所有 `LyraPlaerState` 示例中，在 `Lyra\Source\LyraGame\AbilitySystem\LyraAbilitySystemComponent.h`
+  已被添加到所有 `LyraPlaerState` 示例中，在 `Lyra\Source\LyraGame\AbilitySystem\LyraAbilitySystemComponent.h`
 
   - ALyraPlayerState
     
