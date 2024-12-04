@@ -16,7 +16,7 @@ media_subpath: /assets/img/UE
 # ue术语
 - 组件层级关系
 
-   Actor $\rightarrow$ Pawn $\rightarrow$ Player $\rightarrow$ Controller
+   Actor → Pawn → Player → Controller
 
 # 创建蓝图
 1. 选择一种父类进行创建
