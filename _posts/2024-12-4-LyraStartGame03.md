@@ -1,5 +1,5 @@
 ---
-title: LyraStarterGame 03.人物移动动画详解
+title: LyraStarterGame 03.人物移动和转身动画解析
 date: 2024-12-04 15:56:41 +0800
 categories: [UE]
 tags: [UE] # TAG names should always be lowercase

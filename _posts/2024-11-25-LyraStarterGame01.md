@@ -18,10 +18,10 @@ media_subpath: /assets/img/UE
 
 ## Primary Asset Type
 在 Project Settings 内的 Asset Manager ，存储着 8 种数据类型。
-![](QQ20241129101317.png)
+![](QQ20241129-101317.png)
 
 
-![](QQ20241129101555.png)
+![](QQ20241129-101555.png)
 
 
 
