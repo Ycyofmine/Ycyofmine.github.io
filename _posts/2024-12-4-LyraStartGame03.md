@@ -62,11 +62,11 @@ media_subpath: /assets/img/UE
 
 ## TurnInPlace #6 (also see AnimBP_Mannequin_Base)
 
-When the yaw offset gets big enough, we trigger a TurnInPlace animation to reduce the offset.
+当偏航（yaw）偏移量变得足够大时，我们触发一个“TurnInPlace”动画来减少偏移量。
 
-TurnInPlace animations often end with some settling motion when the rotation is finished. During this time, we move to the TurnInPlaceRecovery state, which can transition back to the TurnInPlaceRotation state if the offset gets big again.
+“TurnInPlace”动画通常会以一些平稳的动作结束，表示旋转完成。在这个过程中，我们会进入“TurnInPlaceRecovery”状态。如果偏移量再次变大，系统会从该状态切换回“TurnInPlaceRotation”状态。
 
-This way we can keep playing the rotation part of the TurnInPlace animations if the Pawn owner keeps rotating, without waiting for the settle to finish.
+通过这种方式，如果Pawn的所有者持续旋转，我们可以继续播放“TurnInPlace”动画的旋转部分，而无需等待平稳动作结束。
 
 ## 总结
 ![](v2-354a0f12e44e511a101e113902e20181_r.jpg)
@@ -76,3 +76,7 @@ This way we can keep playing the rotation part of the TurnInPlace animations if 
 如果旋转角度超过一个小阈值状态机就转到 `TurnInPlaceRotation` ，此时上半身旋转下半身不旋转，在 `TurnInPlaceRecovery` 状态进行下半身旋转，但是如果旋转角度过大，在 `TurnInPlaceRotation` 就会让下半身进行旋转，实现在 `ABP_Mannequin_Base/ProcessTurnYawCurve` 。
 
 [UE5 白话Lyra动画系统](https://zhuanlan.zhihu.com/p/654430436)
+
+http://supervj.top/2023/11/14/Lyra_%E5%8A%A8%E7%94%BB/
+
+[Unreal Engine 5 - Exploring Lyra - Part 3 (Animation)](https://www.youtube.com/watch?v=ys_kSOKpTtg&list=PLNBX4kIrA68lSY6Pj3zDVH6kGDIMgwOvr&index=3)
