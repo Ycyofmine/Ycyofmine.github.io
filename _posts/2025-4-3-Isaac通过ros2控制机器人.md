@@ -1,5 +1,5 @@
 ---
-title: 智能指针
+title: Isaac通过ros2控制机器人
 date: 2025-04-03 10:41:31 +0800
 categories: [机器人]
 tags: [robot] # TAG names should always be lowercase
